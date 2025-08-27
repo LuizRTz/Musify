@@ -1,0 +1,21 @@
+-- GIT CONFIG:
+git config --global user.name LuizRTz
+git config --global user.email luizotaviosifrade10@gmail.com
+--------------------------------------------------------------
+
+-- Criar projeto:
+npx create-expo-app@latest Musify --template blank
+cd Musify
+--------------------------------------------------------------
+
+-- Iniciar Projeto
+npm i
+npx expo start --localhost --android (ou web)
+--------------------------------------------------------------
+
+-- Pacotes
+npx expo install react-dom react-native-web @expo/metro-runtime
+npx expo install @react-native-community/slider
+npx expo install expo-av
+___________________________________
+
